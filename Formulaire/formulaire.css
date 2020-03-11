@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(90deg, rgb(87, 52, 67) 0%, rgba(63, 55, 81, 0.95) 45%, rgba(42, 61, 97, 0.84) 100%);
+    font-family: sans-serif;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+#form label {
+    display: flex;
+    flex-direction: column;
+}
+form#form input {
+    background: rgb(43, 41, 60);
+    border: 1px solid rgb(43, 41, 60);
+    height: 25px;
+    margin: 10px 0px;
+    width: 200px;
+    color: white;
+    padding: 0 20px;
+}
+#form textarea{
+    background: rgb(43, 41, 60);
+    border: 1px solid rgb(43, 41, 60);
+    height: 150px;
+    width: 205px;
+    margin: 10px 0px;
+    color: white;
+    padding: 0 20px;
+
+}
+#form button {
+    background: rgb(43, 41, 60);
+    border: 1px solid rgb(43, 41, 60);
+    margin: 10px 0px;
+    width: 235px;
+    color: white;
+    padding: 20px 20px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+#form button:hover{
+    background: white;
+    color:rgb(43, 41, 60); 
+}
+h1{
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+}
